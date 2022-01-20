@@ -19,15 +19,15 @@ public class Server extends Thread { // extends Thread 추가
 				Socket socket = serverSocket.accept();
 				System.out.println("host:" + socket.getInetAddress() + "통신 연결성공");
 
-				InputStream is = socket.getInputStream();
-				OutputStream os = socket.getOutputStream();
+				InputStream is = socket.getInputStream(); // 입력 
+				OutputStream os = socket.getOutputStream(); // 출력
 
 				byte[] data = new byte[16];
 				int n = is.read(data);
 				final String messageFromClient = new String(data, 0, n); // data 만큼만 읽어들인다.
 				System.out.println(messageFromClient);
 
-				os.write(MESSAGE_TO_CLINET.getBytes());
+				os.write(MESSAGE_TO_CLINET.getBytes()); //.겟바이트, 바이트로 변환
 				os.flush();
 				
 				is.close();
