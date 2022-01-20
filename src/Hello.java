@@ -17,7 +17,7 @@ public class Hello {
 		/*
 		 * 여러줄주석
 		 */
-		System.out./* 한줄주석 */println(/* 한줄주석 */"Hello.welcome to the java world");
+		System.out./* 한줄주석 */println(/* 한줄주석 */"Hello.welcome to the java world!!");
 	}
 
 }
