@@ -16,7 +16,7 @@ public class Method5 {
 
 	public static void main(String[] args) {
 		int i = 24;
-		 i = bbb(i); // 리턴된 값을 대입해주어야한다.
+		 i = bbb(i); // 리턴된  값을 대입해주어야한다.
 		 // 밑에 빨간줄 create method 로 만들수 잇음.
 		System.out.println(i);
 	}

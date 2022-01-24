@@ -13,7 +13,7 @@ public class Method6 {
 		minus(i, j);// 빼기
 		multiple(i, j); // 곱하기
 		divide(i, j); // 나누기
-		remainder(i, j); // 나머지
+		remainder(i, j); //  나머지
 
 	}
 

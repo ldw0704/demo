@@ -3,7 +3,7 @@ public class Method4 {
 
 	public static void aaa(int i, char j) {
 		System.out.println("aaa()함수가 호출되었습니다." + (++i) + j);
-	} // main의 변수를 복사하고 메소드 내에서 사라짐.
+	} // main의 변수를 복사하고 메소드  내에서 사라짐.
 
 	public static void main(String[] args) {
 		int i = 24;

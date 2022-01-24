@@ -49,7 +49,7 @@ public class Method7 { // 함수안에 함수 정의 불가 / 자바는 함수�
 	}
 
 	private static int minus(int i, int j) {
-		return i - j;
+		return i  - j;
 //		System.out.println(i + " - " + j + " = " + (i - j));
 
 	}
