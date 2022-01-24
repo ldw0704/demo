@@ -9,9 +9,9 @@ public class Variable6 {
 		i = j;
 		j = c;
 		// end
-		/* i°ªÀº 20, j °ªÀº 10 */
-		System.out.println("i°ªÀº" + i);
-		System.out.println("j°ªÀº" + j);
+		/* iê°’ì€ 20, j ê°’ì€ 10 */
+		System.out.println("iê°’ì€" + i);
+		System.out.println("jê°’ì€" + j);
 
 	}
 }

@@ -1,5 +1,5 @@
 /**
- * 3*3 ¸¶¹æÁø
+ * 3*3 ë§ˆë°©ì§„
  * 
  * @author smart19
  *
@@ -7,33 +7,33 @@
 public class ArrayExam7 {
 
 	public static void main(String[] args) {
-		; // ´ÙÂ÷¿ø¹è¿­ ¼±¾ğ°úµ¿½Ã¿¡ °ª ÁÖ´Â Çü½Ä.
-		// ¹è¿­ÀÇ Å©±â°¡ Çà¸¶´Ù ´Ş¶óµµ µÊ
+		; // ë‹¤ì°¨ì›ë°°ì—´ ì„ ì–¸ê³¼ë™ì‹œì— ê°’ ì£¼ëŠ” í˜•ì‹.
+		// ë°°ì—´ì˜ í¬ê¸°ê°€ í–‰ë§ˆë‹¤ ë‹¬ë¼ë„ ë¨
 		int[][] arr = { 
 				{ 2,7,6 },
 				{  9,5,1},
 				{  4,3,8}
 				
 				};
-		int rowCntChk = 0; //°¡·Î°ª Ã¼Å©
+		int rowCntChk = 0; //ê°€ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
 				rowCntChk += arr[i][j];
 			}						
 		}
 		if(rowCntChk != (15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
-		int colCntChk = 0;//¼¼·Î°ª Ã¼Å©
+		int colCntChk = 0;//ì„¸ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
-				colCntChk += arr[j][i]; // ÁÂÇ¥ ¹Ù²Ş
+				colCntChk += arr[j][i]; // ì¢Œí‘œ ë°”ê¿ˆ
 			}			
 		}
 		if(colCntChk != (15*3)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -46,7 +46,7 @@ public class ArrayExam7 {
 			}			
 		}
 		if(leftTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -59,9 +59,9 @@ public class ArrayExam7 {
 			}			
 		}
 		if(rightTop != 15) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´ä");
+		System.out.println("ì •ë‹µ");
 	}
 }

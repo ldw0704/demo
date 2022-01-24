@@ -2,7 +2,7 @@
 public class ArrayExam2 {
 
 	public static void main(String[] args) {
-		int[] j = { 10, 20, 30 }; // ╧Х©╜╩Щ╪╨╟З╣©╫ц©║ ╟╙ ют╥б . new ╢б ╨С╧Х©╜ ╦╦╣И╤╖
+		int[] j = { 10, 20, 30 }; // К╟╟Л≈╢Л┐²Л└╠ЙЁ╪К▐≥Л▀°Л≈░ Й╟▓ Л·┘К═╔ . new К┼■ К╧┬К╟╟Л≈╢ К╖▄К⌠╓К∙▄
 		System.out.println(j[1]);
 	}
 

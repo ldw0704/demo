@@ -30,8 +30,8 @@ public class ControlFlow5 {
 			System.out.println("F");
 			break;
 		}
-		int m = 240; // ±Ù¹«°³¿ù¼ö
-		int y = m / 12; // y´Â ³â day´Â ¿¬Â÷
+		int m = 240; // ê·¼ë¬´ê°œì›”ìˆ˜
+		int y = m / 12; // yëŠ” ë…„ dayëŠ” ì—°ì°¨
 		int day = 14 + y / 2;
 		System.out.println((day >= 25) ? 25 : day);
 	}

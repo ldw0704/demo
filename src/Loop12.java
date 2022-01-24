@@ -1,5 +1,5 @@
 /**
- * ÇÇº¸³ªÄ¡ ¼ö¿­ 10¹ø
+ * í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ 10ë²ˆ
  * 
  * @author smart19
  *
@@ -9,7 +9,7 @@ public class Loop12 {
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i);
-			// i°ªÀÌ 5ÀÌ¸é Á¤Áö
+			// iê°’ì´ 5ì´ë©´ ì •ì§€
 			if (i == 5) {
 				break;
 			}

@@ -1,28 +1,28 @@
 import java.util.Scanner;
 
 /**
- * ±¹¿µ¼ö, ÃÑÇÕ, Æò±Õ ¼ºÀûÃ³¸®ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À
+ * êµ­ì˜ìˆ˜, ì´í•©, í‰ê·  ì„±ì ì²˜ë¦¬í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤
  * 
  * @author smart19
  *
  */
 public class ArrayExam5 {
-// ¹è¿­Àº »ı¼ºÈÄ ±æÀÌ Á¶ÀıºÒ°¡ °°ÀºÅ¸ÀÔ¸¸ ÀúÀå°¡´É
+// ë°°ì—´ì€ ìƒì„±í›„ ê¸¸ì´ ì¡°ì ˆë¶ˆê°€ ê°™ì€íƒ€ì…ë§Œ ì €ì¥ê°€ëŠ¥
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in); //°Ë»ö°¡´ÉÇÏ°ÔÇÏ´Â Å¬·¡½º.
+		Scanner scan = new Scanner(System.in); //ê²€ìƒ‰ê°€ëŠ¥í•˜ê²Œí•˜ëŠ” í´ë˜ìŠ¤.
 		
 		int[] grade = new int[5];
-		System.out.println(grade.length); // ÂüÁ¶ÇüÀº . µÚ¿¡ °¢Á¾ ¸í·É¾îÁ¸Àç length ±æÀÌ
-		System.out.println("±¹¾î¼ºÀûÀÔ·Â");
+		System.out.println(grade.length); // ì°¸ì¡°í˜•ì€ . ë’¤ì— ê°ì¢… ëª…ë ¹ì–´ì¡´ì¬ length ê¸¸ì´
+		System.out.println("êµ­ì–´ì„±ì ì…ë ¥");
 		grade[0] = scan.nextInt();
-		System.out.println("¿µ¾î¼ºÀûÀÔ·Â");
+		System.out.println("ì˜ì–´ì„±ì ì…ë ¥");
 		grade[1] = scan.nextInt();
-		System.out.println("¼öÇĞ¼ºÀûÀÔ·Â");
+		System.out.println("ìˆ˜í•™ì„±ì ì…ë ¥");
 		grade[2] = scan.nextInt();
 		grade[3] = grade[0] + grade[1] + grade[2];
 		grade[4] = grade[3] / 3;
-		System.out.printf("±¹¾î: %d, ¿µ¾î: %d, ¼öÇĞ:%d ", grade[0], grade[1],grade[2]);
-		System.out.printf("ÃÑÁ¡: %d, Æò±Õ: %d", grade[3], grade[4]); // º¯¼ö°³¼ö¸¦ ÁÙÀÏ¼ö ÀÖ´Ù.
+		System.out.printf("êµ­ì–´: %d, ì˜ì–´: %d, ìˆ˜í•™:%d ", grade[0], grade[1],grade[2]);
+		System.out.printf("ì´ì : %d, í‰ê· : %d", grade[3], grade[4]); // ë³€ìˆ˜ê°œìˆ˜ë¥¼ ì¤„ì¼ìˆ˜ ìˆë‹¤.
 	}
 
 }

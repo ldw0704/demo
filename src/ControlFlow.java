@@ -5,13 +5,13 @@ public class ControlFlow {
 		// if
 		int i = 4;
 		if (i > 5) {
-			System.out.println("5º¸´Ù Å®´Ï´Ù.");
+			System.out.println("5ë³´ë‹¤ í½ë‹ˆë‹¤.");
 		}
 		if (i == 5) {
-			System.out.println("5ÀÔ´Ï´Ù.");
+			System.out.println("5ì…ë‹ˆë‹¤.");
 		}
 		if (i < 5) {
-			System.out.println("5º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("5ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤.");
 		}
 	}
 

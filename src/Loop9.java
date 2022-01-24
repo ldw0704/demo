@@ -1,5 +1,5 @@
 /**
- * ¡Ú ¡Ú¡Ú ¡Ú¡Ú¡Ú ¡Ú¡Ú¡Ú¡Ú ¡Ú¡Ú¡Ú¡Ú¡Ú
+ * â˜… â˜…â˜… â˜…â˜…â˜… â˜…â˜…â˜…â˜… â˜…â˜…â˜…â˜…â˜…
  * 
  * @author smart19
  *
@@ -11,7 +11,7 @@ public class Loop9 {
 		for (int a = 1; a < 6; a++) {
 
 			for (int b = 1; b <= a; b++) {
-				System.out.print("¡Ú");
+				System.out.print("â˜…");
 			}
 			System.out.println();
 		}
@@ -20,7 +20,7 @@ public class Loop9 {
 
 			for (int d = 1; d <= 6 - c; d++) {
 
-				System.out.print("¡Ú");
+				System.out.print("â˜…");
 			}
 			System.out.println();
 
@@ -29,9 +29,9 @@ public class Loop9 {
 		for (int i = 1; i < 6; i++) {
 
 			for (int j = 1; j <= ((i >= 3) ? 6 - i : i); j++) {
-				System.out.print("¡Ú");
+				System.out.print("â˜…");
 			}
-			System.out.println();// System.out.printf("\n"); ÁÙ¹Ù²Ù±â
+			System.out.println();// System.out.printf("\n"); ì¤„ë°”ê¾¸ê¸°
 		}
 	}
 }

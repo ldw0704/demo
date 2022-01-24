@@ -8,7 +8,7 @@ public class Loop15 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
-			// continue´Â ¹Ù·Î Á¶°Ç¹®À¸·Î ÀÌµ¿
+			// continueëŠ” ë°”ë¡œ ì¡°ê±´ë¬¸ìœ¼ë¡œ ì´ë™
 			if (i == 5) {
 				continue;
 

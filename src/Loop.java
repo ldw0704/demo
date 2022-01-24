@@ -1,5 +1,5 @@
 /**
- * for¹® 1ºÎÅÍ 10±îÁö Ãâ·Â
+ * forë¬¸ 1ë¶€í„° 10ê¹Œì§€ ì¶œë ¥
  * 
  * @author smart19
  *
@@ -7,11 +7,11 @@
 public class Loop {
 
 	public static void main(String[] args) {
-//for ÃÊ±â°ª, Á¶°Ç¹®, Áõ°¨½Ä ¼öÇà¹® >ÀÌÈÄ Á¶°Ç¹®ºÎÅÍ ¼öÇà¹® ¹Ýº¹ÈÄ false½Ã Å»Ãâ
-		// Áõ°¨½Ä ¹Ì±âÀÔ½Ã ¹«ÇÑ¹Ýº¹(Áõ°¨½ÄÀÌ ¾ø±â¶§¹®¿¡ Áõ°¨ÀÌ ¾ÈÀÏ¾î³²)
+//for ì´ˆê¸°ê°’, ì¡°ê±´ë¬¸, ì¦ê°ì‹ ìˆ˜í–‰ë¬¸ >ì´í›„ ì¡°ê±´ë¬¸ë¶€í„° ìˆ˜í–‰ë¬¸ ë°˜ë³µí›„ falseì‹œ íƒˆì¶œ
+		// ì¦ê°ì‹ ë¯¸ê¸°ìž…ì‹œ ë¬´í•œë°˜ë³µ(ì¦ê°ì‹ì´ ì—†ê¸°ë•Œë¬¸ì— ì¦ê°ì´ ì•ˆì¼ì–´ë‚¨)
 		for (int i = 0; i < 10; i++) {
 			System.out.println(i + 1);
-		} // i°¡ 0ºÎÅÍ ½ÃÀÛÇÏ´Â°Ç ¹è¿­°ü·Ã ±×¸®°í Á¶°Ç¹®È½¼öµµ Á÷°üÀûÀÌ°Ô µÈ´Ù.
+		} // iê°€ 0ë¶€í„° ì‹œìž‘í•˜ëŠ”ê±´ ë°°ì—´ê´€ë ¨ ê·¸ë¦¬ê³  ì¡°ê±´ë¬¸íšŸìˆ˜ë„ ì§ê´€ì ì´ê²Œ ëœë‹¤.
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 		}

@@ -4,18 +4,18 @@ public class ControlFlow6 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("¿¬Â÷¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì—°ì°¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		int m = 0;
 		do {
-			System.out.println("¾ç¼ö°ªÀ» ÀÔ·ÂÇÖ¿¡¿©");
+			System.out.println("ì–‘ìˆ˜ê°’ì„ ì…ë ¥í•«ì—ì—¬");
 			m = scan.nextInt();
 		} while (m < 0);
 		int y = m / 12;
 		int day = 11 + y / 2;
 		if (m < 12) {
-			System.out.println(m - 1 + "ÀÏ");
+			System.out.println(m - 1 + "ì¼");
 		} else {
-			System.out.println((day >= 25) ? 25 : day + "ÀÏ");
+			System.out.println((day >= 25) ? 25 : day + "ì¼");
 		}
 
 	}

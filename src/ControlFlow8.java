@@ -1,46 +1,46 @@
 /**
- * °¡À§1 ¹ÙÀ§2 º¸3 °ÔÀÓÇÁ·Î±×·¥ µÎ¸íÀÇÀ¯Àú°¡ ÀÓÀÇ°ª ¼±ÅÃÈÄ °á°úÃâ·Â
+ * ê°€ìœ„1 ë°”ìœ„2 ë³´3 ê²Œì„í”„ë¡œê·¸ë¨ ë‘ëª…ì˜ìœ ì €ê°€ ì„ì˜ê°’ ì„ íƒí›„ ê²°ê³¼ì¶œë ¥
  * 
  * @author smart19
  */
 public class ControlFlow8 {
 
 	public static void main(String[] args) {
-		int user1 = (int) (Math.random() * 3) + 1; // º»ÀÎ
-		int user2 = (int) (Math.random() * 3) + 1; // »ó´ë¹æ
+		int user1 = (int) (Math.random() * 3) + 1; // ë³¸ì¸
+		int user2 = (int) (Math.random() * 3) + 1; // ìƒëŒ€ë°©
 		if (user1 == 1) {
-			System.out.println("³ª´Â °¡À§");
+			System.out.println("ë‚˜ëŠ” ê°€ìœ„");
 		} else if (user1 == 2) {
-			System.out.println("³ª´Â ¹ÙÀ§");
+			System.out.println("ë‚˜ëŠ” ë°”ìœ„");
 		} else {
-			System.out.println("³ª´Â º¸");
+			System.out.println("ë‚˜ëŠ” ë³´");
 		}
 		if (user2 == 1) {
-			System.out.println("»ó´ë¹æÀº °¡À§");
+			System.out.println("ìƒëŒ€ë°©ì€ ê°€ìœ„");
 		} else if (user2 == 2) {
-			System.out.println("»ó´ë¹æÀº ¹ÙÀ§");
+			System.out.println("ìƒëŒ€ë°©ì€ ë°”ìœ„");
 		} else {
-			System.out.println("»ó´ë¹æÀº º¸");
+			System.out.println("ìƒëŒ€ë°©ì€ ë³´");
 		}
 
 		if (user1 == 1 && user2 == 1) {
-			System.out.println("ºñ±è");
+			System.out.println("ë¹„ê¹€");
 		} else if (user1 == 1 && user2 == 2) {
-			System.out.println("Áü");
+			System.out.println("ì§");
 		} else if (user1 == 1 && user2 == 3) {
-			System.out.println("ÀÌ±è");
+			System.out.println("ì´ê¹€");
 		} else if (user1 == 2 && user2 == 1) {
-			System.out.println("ÀÌ±è");
+			System.out.println("ì´ê¹€");
 		} else if (user1 == 2 && user2 == 2) {
-			System.out.println("ºñ±è");
+			System.out.println("ë¹„ê¹€");
 		} else if (user1 == 2 && user2 == 3) {
-			System.out.println("Áü");
+			System.out.println("ì§");
 		} else if (user1 == 3 && user2 == 1) {
-			System.out.println("Áü");
+			System.out.println("ì§");
 		} else if (user1 == 3 && user2 == 2) {
-			System.out.println("ÀÌ±è");
+			System.out.println("ì´ê¹€");
 		} else if (user1 == 3 && user2 == 3) {
-			System.out.println("ºñ±è");
+			System.out.println("ë¹„ê¹€");
 		}
 	}
 }

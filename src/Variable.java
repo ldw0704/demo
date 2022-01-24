@@ -2,11 +2,11 @@
 public class Variable {
 
 	public static void main(String[] args) {
-//		º¯¼ö¼±¾ğ
+//		ë³€ìˆ˜ì„ ì–¸
 //		int num1;
-//		º¯¼ö°ª ÃÊ±âÈ­
+//		ë³€ìˆ˜ê°’ ì´ˆê¸°í™”
 //		num1 = 20;
-//		º¯¼ö ¼±¾ğ°ú µ¿½Ã¿¡ ÃÊ±âÈ­
+//		ë³€ìˆ˜ ì„ ì–¸ê³¼ ë™ì‹œì— ì´ˆê¸°í™”
 		int num1 = -20;
 		char c = 'A';
 		System.out.println(num1 + 1);

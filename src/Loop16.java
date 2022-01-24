@@ -1,5 +1,5 @@
 /**
- * for¹® »ïÀ°±¸¸¦ Ãâ·ÂÇÏ¼¼¿ä 3ÀÇ¹è¼öÀÏ¶§´Â Â¦ÀÌ¶ó°í Ãâ·ÂÇÏ¼¼¿ä
+ * forë¬¸ ì‚¼ìœ¡êµ¬ë¥¼ ì¶œë ¥í•˜ì„¸ìš” 3ì˜ë°°ìˆ˜ì¼ë•ŒëŠ” ì§ì´ë¼ê³  ì¶œë ¥í•˜ì„¸ìš”
  * 
  * @author smart19
  *
@@ -12,7 +12,7 @@ public class Loop16 {
 		while (i <= 50) {
 			i++;
 			if (i % 3 == 0) {
-				System.out.println("Â¦");
+				System.out.println("ì§");
 				continue;
 			}
 			System.out.println(i);

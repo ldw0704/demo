@@ -1,8 +1,8 @@
 
-import java.time.LocalDateTime;// ½Ã½ºÅÛ Å¬·¡½º´Â ±âº»À¸·Î ºÒ·¯¿À°í ³ª¸ÓÁö´Â µû·Î ºÒ·¯¿Â´Ù.
+import java.time.LocalDateTime;// ì‹œìŠ¤í…œ í´ë˜ìŠ¤ëŠ” ê¸°ë³¸ìœ¼ë¡œ ë¶ˆëŸ¬ì˜¤ê³  ë‚˜ë¨¸ì§€ëŠ” ë”°ë¡œ ë¶ˆëŸ¬ì˜¨ë‹¤.
 
 /**
- * for¹® ÇöÀç½Ã°£Ãâ·Â
+ * forë¬¸ í˜„ì¬ì‹œê°„ì¶œë ¥
  * 
  * @author smart19
  *
@@ -11,7 +11,7 @@ public class Loop7_1 {
 
 	public static void main(String[] args) {
 
-		while (true) { // while ¹«ÇÑ ¹İº¹¹® Àº ;; ´ë½Å true
+		while (true) { // while ë¬´í•œ ë°˜ë³µë¬¸ ì€ ;; ëŒ€ì‹  true
 			LocalDateTime ldt = LocalDateTime.now();
 			System.out.print(ldt.getHour() + ":");
 			System.out.print(ldt.getMinute() + ":");

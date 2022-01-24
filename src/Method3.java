@@ -12,50 +12,50 @@ public class Method3 {
 		}
 		switch (longevityYear) {
 		case 1:
-			System.out.println("¿¬Â÷°³¼ö°¡ " + (longevityYear - 1) + "°³ ÀÔ´Ï´Ù"); // ¹®ÀÚ¿­ ³» ¼ö½Ä : ""+(¼ö½Ä)+""
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ " + (longevityYear - 1) + "ê°œ ì…ë‹ˆë‹¤"); // ë¬¸ìì—´ ë‚´ ìˆ˜ì‹ : ""+(ìˆ˜ì‹)+""
 			break;
 		case 2:
-			System.out.println("¿¬Â÷°³¼ö°¡ 15°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 15ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 3:
 		case 4:
-			System.out.println("¿¬Â÷°³¼ö°¡ 16°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 16ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 5:
 		case 6:
-			System.out.println("¿¬Â÷°³¼ö°¡ 17°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 17ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 7:
 		case 8:
-			System.out.println("¿¬Â÷°³¼ö°¡ 18°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 18ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 9:
 		case 10:
-			System.out.println("¿¬Â÷°³¼ö°¡ 19°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 19ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 11:
 		case 12:
-			System.out.println("¿¬Â÷°³¼ö°¡ 20°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 20ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 13:
 		case 14:
-			System.out.println("¿¬Â÷°³¼ö°¡ 21°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 21ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 15:
 		case 16:
-			System.out.println("¿¬Â÷°³¼ö°¡ 22°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 22ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 17:
 		case 18:
-			System.out.println("¿¬Â÷°³¼ö°¡ 23°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 23ê°œ ì…ë‹ˆë‹¤");
 			break;
 		case 19:
 		case 20:
-			System.out.println("¿¬Â÷°³¼ö°¡ 24°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 24ê°œ ì…ë‹ˆë‹¤");
 			break;
 
 		default:
-			System.out.println("¿¬Â÷°³¼ö°¡ 25°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 25ê°œ ì…ë‹ˆë‹¤");
 			break;
 		}
 	}

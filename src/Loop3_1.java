@@ -1,5 +1,5 @@
 /**
- * for¹® 2022 º»ÀÎ »ı³â±îÁö ¹İº¹ÇØ¼­ Ãâ·Â
+ * forë¬¸ 2022 ë³¸ì¸ ìƒë…„ê¹Œì§€ ë°˜ë³µí•´ì„œ ì¶œë ¥
  * 
  * @author smart19
  *
@@ -10,7 +10,7 @@ public class Loop3_1 {
 		int i = 2022;
 		int myAge = 1988;
 		while (i >= myAge) {
-			System.out.printf("³âµµ %d, ³ªÀÌ %d %n", i, i - (myAge - 1));
+			System.out.printf("ë…„ë„ %d, ë‚˜ì´ %d %n", i, i - (myAge - 1));
 			i--;
 		}
 	}

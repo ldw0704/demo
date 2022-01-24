@@ -1,5 +1,5 @@
 /**
- * 5*5 ¸¶¹æÁø
+ * 5*5 ë§ˆë°©ì§„
  * 
  * @author smart19
  *
@@ -12,28 +12,28 @@ public class ArrayExam8 {
 				{ 10,12,19,21,3 },
 				{ 4, 6, 13, 20, 22 },
 				{ 23, 5, 7, 14, 16},
-				{ 17, 24, 1, 8, 15}// ¹è¿­ÀÇ Å©±â°¡ Çà¸¶´Ù ´Þ¶óµµ µÊ
-				}; // ´ÙÂ÷¿ø¹è¿­ ¼±¾ð°úµ¿½Ã¿¡ °ª ÁÖ´Â Çü½Ä.
+				{ 17, 24, 1, 8, 15}// ë°°ì—´ì˜ í¬ê¸°ê°€ í–‰ë§ˆë‹¤ ë‹¬ë¼ë„ ë¨
+				}; // ë‹¤ì°¨ì›ë°°ì—´ ì„ ì–¸ê³¼ë™ì‹œì— ê°’ ì£¼ëŠ” í˜•ì‹.
 		
-		int rowCntChk = 0; //°¡·Î°ª Ã¼Å©
+		int rowCntChk = 0; //ê°€ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
 				rowCntChk += arr[i][j];
 			}						
 		}
 		if(rowCntChk != (65*5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
-		int colCntChk = 0;//¼¼·Î°ª Ã¼Å©
+		int colCntChk = 0;//ì„¸ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
-				colCntChk += arr[j][i]; // ÁÂÇ¥ ¹Ù²Þ
+				colCntChk += arr[j][i]; // ì¢Œí‘œ ë°”ê¿ˆ
 			}			
 		}
 		if(colCntChk != (65*5)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -46,7 +46,7 @@ public class ArrayExam8 {
 			}			
 		}
 		if(leftTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -59,9 +59,9 @@ public class ArrayExam8 {
 			}			
 		}
 		if(rightTop != 65) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´ä");
+		System.out.println("ì •ë‹µ");
 	}
 }

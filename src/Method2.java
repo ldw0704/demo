@@ -7,28 +7,28 @@ public class Method2 {
 				{ 10, 12, 19, 21, 3 }, 
 				{ 4, 6, 13, 20, 22 }, 
 				{ 23, 5, 7, 14, 16 },
-				{ 17, 24, 1, 8, 15 }// �迭�� ũ�Ⱑ �ึ�� �޶� ��
-		}; // �������迭 ��������ÿ� �� �ִ� ����.
+				{ 17, 24, 1, 8, 15 }// 배열의 크기가 행마다 달라도 됨
+		}; // 다차원배열 선언과동시에 값 주는 형식.
 
-		int rowCntChk = 0; // ���ΰ� üũ
+		int rowCntChk = 0; // 가로값 체크
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				rowCntChk += arr[i][j];
 			}
 		}
 		if (rowCntChk != (65 * 5)) {
-			System.out.println("����");
+			System.out.println("오답");
 			return;
 		}
 
-		int colCntChk = 0;// ���ΰ� üũ
+		int colCntChk = 0;// 세로값 체크
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
-				colCntChk += arr[j][i]; // ��ǥ �ٲ�
+				colCntChk += arr[j][i]; // 좌표 바꿈
 			}
 		}
 		if (colCntChk != (65 * 5)) {
-			System.out.println("����");
+			System.out.println("오답");
 			return;
 		}
 
@@ -41,7 +41,7 @@ public class Method2 {
 			}
 		}
 		if (leftTop != 65) {
-			System.out.println("����");
+			System.out.println("오답");
 			return;
 		}
 
@@ -54,14 +54,14 @@ public class Method2 {
 			}
 		}
 		if (rightTop != 65) {
-			System.out.println("����");
+			System.out.println("오답");
 			return;
 		}
-		System.out.println("����");		
+		System.out.println("정답");		
 	}
 
 	public static void main(String[] args) {
-		aaa();// �Ķ���Ͱ� ����
+		aaa();// 파라미터값 주의
 	}
 
 }

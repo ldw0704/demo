@@ -1,5 +1,5 @@
 /**
- * for¹® 2022³â 1¿ù´Ş ÀÏÀÚ¸¦ ¹İº¹Ãâ·ÂÇÏ½Ã¿À(1~31)
+ * forë¬¸ 2022ë…„ 1ì›”ë‹¬ ì¼ìë¥¼ ë°˜ë³µì¶œë ¥í•˜ì‹œì˜¤(1~31)
  * 
  * @author smart19
  *
@@ -27,7 +27,7 @@ public class Loop5 {
 				break;
 			}
 
-			System.out.print(j + "¿ù ");
+			System.out.print(j + "ì›” ");
 			for (int i = 1; i <= lastDayOfMonth; i++) {
 				System.out.print(i + "\t");
 			}

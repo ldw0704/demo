@@ -1,5 +1,5 @@
 /**
- * È¦Â¦ÇÁ·Î±×·¥
+ * í™€ì§í”„ë¡œê·¸ë¨
  * 
  * @author smart19
  *
@@ -8,12 +8,12 @@ public class ControlFlow7 {
 
 	public static void main(String[] args) {
 		int i;
-		i = 59;// [DEG] - µğ¹ö±×
+		i = 59;// [DEG] - ë””ë²„ê·¸
 //		System.out.println("[DEG]" + (i % 2 == 0)); 
 		if (i % 2 == 0) {
-			System.out.println("Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println("ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else {
-			System.out.println("È¦¼öÀÔ´Ï´Ù.");
+			System.out.println("í™€ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 	}
 }

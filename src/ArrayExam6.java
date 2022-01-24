@@ -9,8 +9,8 @@ public class ArrayExam6 {
 		arr[1][0] = 4;
 		arr[1][1] = 5;
 		arr[1][2] = 6;
-		System.out.println(arr[1].length); // ´ÙÂ÷¿ø¹è¿­½Ã ¹è¿­±æÀÌ´Â Çà°³¼ö, Æ¯Á¤ ÇàÀÇ ±æÀÌ´Â ¿­ÀÇ ±æÀÌ°¡ ¶á´Ù
-		for (int i = 0; i < arr.length; i++) {// ¹è¿­¹İº¹Àº ¹è¿­±æÀÌ¸¦ È°¿ëÇÏÀÚ!
+		System.out.println(arr[1].length); // ë‹¤ì°¨ì›ë°°ì—´ì‹œ ë°°ì—´ê¸¸ì´ëŠ” í–‰ê°œìˆ˜, íŠ¹ì • í–‰ì˜ ê¸¸ì´ëŠ” ì—´ì˜ ê¸¸ì´ê°€ ëœ¬ë‹¤
+		for (int i = 0; i < arr.length; i++) {// ë°°ì—´ë°˜ë³µì€ ë°°ì—´ê¸¸ì´ë¥¼ í™œìš©í•˜ì!
 			for (int j = 0; j < arr[0].length; j++) {
 				System.out.println(arr[i][j]);
 			}

@@ -1,7 +1,7 @@
 import java.util.Iterator;
 
 /**
- * n*n ¸¶¹æÁø
+ * n*n ë§ˆë°©ì§„
  * 
  * @author smart19
  *
@@ -9,9 +9,9 @@ import java.util.Iterator;
 public class ArrayExam9 {
 
 	public static void main(String[] args) {
-		int cube = 3; // n*n ¸¶¹æÁø
-		int sum = 0; //¸¶¹æÁø ³» °ª
-		int chkNum = 0; // °ª / nÇà
+		int cube = 3; // n*n ë§ˆë°©ì§„
+		int sum = 0; //ë§ˆë°©ì§„ ë‚´ ê°’
+		int chkNum = 0; // ê°’ / ní–‰
 		for(int i = 0; i <= cube*cube;i++) {
 			sum+=i;
 		}
@@ -22,27 +22,27 @@ public class ArrayExam9 {
 				{ 9,5,1},
 				{ 4,3,8}
 				}; 
-		// ´ÙÂ÷¿ø¹è¿­ ¼±¾ğ°úµ¿½Ã¿¡ °ª ÁÖ´Â Çü½Ä.
-		//n*nÇà¸¶¹æÁø ÇÕ : n^2*(n^2+1)/2, ¿ª´ë°¢¼± ÁÂÇ¥i,jÀÇÇÕ : n-1, ¿­ÀÇÇÕ : ÇÕ / n, nÀº È¦¼ö
-		int rowCntChk = 0; //°¡·Î°ª Ã¼Å©
+		// ë‹¤ì°¨ì›ë°°ì—´ ì„ ì–¸ê³¼ë™ì‹œì— ê°’ ì£¼ëŠ” í˜•ì‹.
+		//n*ní–‰ë§ˆë°©ì§„ í•© : n^2*(n^2+1)/2, ì—­ëŒ€ê°ì„  ì¢Œí‘œi,jì˜í•© : n-1, ì—´ì˜í•© : í•© / n, nì€ í™€ìˆ˜
+		int rowCntChk = 0; //ê°€ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
 				rowCntChk += arr[i][j];
 			}						
 		}
 		if(rowCntChk != (sum)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
-		int colCntChk = 0;//¼¼·Î°ª Ã¼Å©
+		int colCntChk = 0;//ì„¸ë¡œê°’ ì²´í¬
 		for (int i = 0; i < arr.length; i++) {			
 			for (int j = 0; j < arr[i].length; j++) {
-				colCntChk += arr[j][i]; // ÁÂÇ¥ ¹Ù²Ş
+				colCntChk += arr[j][i]; // ì¢Œí‘œ ë°”ê¿ˆ
 			}			
 		}
 		if(colCntChk != (sum)) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -55,7 +55,7 @@ public class ArrayExam9 {
 			}			
 		}
 		if(leftTop != chkNum) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
 		
@@ -68,9 +68,9 @@ public class ArrayExam9 {
 			}			
 		}
 		if(rightTop != chkNum) {
-			System.out.println("¿À´ä");
+			System.out.println("ì˜¤ë‹µ");
 			return;
 		}
-		System.out.println("Á¤´ä");
+		System.out.println("ì •ë‹µ");
 	}
 }

@@ -7,10 +7,10 @@ public class ArrayExam {
 		 * 
 		 * System.out.println(ae);
 		 */
-	char c = ' '; // charÀÇ ±âº»°ªÀº ºóÄ­(void)ÀÌ´Ù
+	char c = ' '; // charì˜ ê¸°ë³¸ê°’ì€ ë¹ˆì¹¸(void)ì´ë‹¤
 	int [] j = new int[3]; //
 	j[0] = 10;
-	System.out.println(j[0]); // ÀÎÆ® ¹è¿­ ÃÊ±â°ªÀº 0 ´õºíÀº 0.0
+	System.out.println(j[0]); // ì¸íŠ¸ ë°°ì—´ ì´ˆê¸°ê°’ì€ 0 ë”ë¸”ì€ 0.0
 	}
 
 }

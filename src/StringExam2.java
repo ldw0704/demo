@@ -1,5 +1,5 @@
 /**
- * ¹®ÀÚ¿­ String Å¬·¡½º
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤
  * 
  * @author smart19
  *
@@ -8,10 +8,10 @@ public class StringExam2 {
 
 	public static void main(String[] args) {
 
-		String str = "ABC"; // ´ë¼Ò¹®ÀÚ ±¸ºĞÇÔ. -> ´Ù¸£±â ¶§¹®¿¡ »õ·Î ¸Ş¸ğ¸®°ª ÇÒ´ç.
+		String str = "ABC"; // ëŒ€ì†Œë¬¸ì êµ¬ë¶„í•¨. -> ë‹¤ë¥´ê¸° ë•Œë¬¸ì— ìƒˆë¡œ ë©”ëª¨ë¦¬ê°’ í• ë‹¹.
 		String str2 = "abc";
-		System.out.println(str == str2); // new´Â ¹«Á¶°Ç ´Ù¸¥ ¸Ş¸ğ¸®. new ¾øÀ¸¸é °°Àº ÁÖ¼Ò Ãâ·Â.
-		System.out.println(str.equals(str2)); // À§ÀÇ ¹®Á¦ ¶§¹®¿¡ equals»ç¿ë.
+		System.out.println(str == str2); // newëŠ” ë¬´ì¡°ê±´ ë‹¤ë¥¸ ë©”ëª¨ë¦¬. new ì—†ìœ¼ë©´ ê°™ì€ ì£¼ì†Œ ì¶œë ¥.
+		System.out.println(str.equals(str2)); // ìœ„ì˜ ë¬¸ì œ ë•Œë¬¸ì— equalsì‚¬ìš©.
 		System.out.println(str);
 		System.out.println(str2);
 	}

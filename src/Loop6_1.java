@@ -1,5 +1,5 @@
 /**
- * for¹® ÇöÀç½Ã°£Ãâ·Â
+ * forë¬¸ í˜„ì¬ì‹œê°„ì¶œë ¥
  * 
  * @author smart19
  *
@@ -8,19 +8,19 @@ public class Loop6_1 {
 
 	public static void main(String[] args) {
 		int sec = (60 * 60 * 14) + (32 * 60);
-//		System.out.println(sec);//ÀüÃ¼ÃÊ
+//		System.out.println(sec);//ì „ì²´ì´ˆ
 
-		while (true) {// ;;´Â ¹«ÇÑ·çÇÁ
+		while (true) {// ;;ëŠ” ë¬´í•œë£¨í”„
 			sec++;
-			System.out.print((sec) / (60 * 60) + "½Ã ");// ½Ã
-			System.out.print(((sec) % (60 * 60)) / 60 + "ºĞ ");// ºĞ
-			System.out.println(((sec) % (60 * 60)) % 60 + "ÃÊ");// ÃÊ
+			System.out.print((sec) / (60 * 60) + "ì‹œ ");// ì‹œ
+			System.out.print(((sec) % (60 * 60)) / 60 + "ë¶„ ");// ë¶„
+			System.out.println(((sec) % (60 * 60)) % 60 + "ì´ˆ");// ì´ˆ
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} // 1000ÀÌ 1ÃÊ
+			} // 1000ì´ 1ì´ˆ
 		}
 	}
 }

@@ -4,16 +4,16 @@ public class Test2 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++) {
-			HashSet<Integer> hs = new HashSet<Integer>(); // Áßº¹Çã¿ë x
+			HashSet<Integer> hs = new HashSet<Integer>(); // ì¤‘ë³µí—ˆìš© x
 			while (true) {
 				hs.add((int) (Math.random() * 45) + 1);
-				if (hs.size() == 6) { // hs°¡ 6°³ Âû¶§±îÁö ¹İº¹
-					break;// ¹İº¹¹® Å»Ãâ
+				if (hs.size() == 6) { // hsê°€ 6ê°œ ì°°ë•Œê¹Œì§€ ë°˜ë³µ
+					break;// ë°˜ë³µë¬¸ íƒˆì¶œ
 				}
 			}
 			System.out.println(hs);
 		}
 
-	} // 2022 ·Î¶Ç 6°³ ÃßÃ·
+	} // 2022 ë¡œë˜ 6ê°œ ì¶”ì²¨
 
 }

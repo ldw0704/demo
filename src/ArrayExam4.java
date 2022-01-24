@@ -1,5 +1,5 @@
 /**
- * ±¹¿µ¼ö, ÃÑÇÕ, Æò±Õ ¼ºÀûÃ³¸®ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À
+ * êµ­ì˜ìˆ˜, ì´í•©, í‰ê·  ì„±ì ì²˜ë¦¬í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤
  * 
  * @author smart19
  *
@@ -18,8 +18,8 @@ public class ArrayExam4 {
 		math = 85;
 		total = kor + eng + math;
 		avg = total / 3;
-		System.out.printf("±¹¾î: %d, ¿µ¾î: %d, ¼öÇĞ:%d", kor, eng, math);
-		System.out.printf("ÃÑÁ¡: %d, Æò±Õ: %d", total, avg);
+		System.out.printf("êµ­ì–´: %d, ì˜ì–´: %d, ìˆ˜í•™:%d", kor, eng, math);
+		System.out.printf("ì´ì : %d, í‰ê· : %d", total, avg);
 	}
 
 }

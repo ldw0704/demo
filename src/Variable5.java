@@ -2,7 +2,7 @@
 public class Variable5 {
 
 	public static void main(String[] args) {
-		long b = 10 + 10L; // ´Ù¸¥ Å¸ÀÔ³¢¸® ´õÇÏ¸é »óÀ§Å¸ÀÔ¿¡ ¸ÂÃç¾ßÇÑ´Ù. ¾Æ´Ï¸é ¿¡·¯¶ä
+		long b = 10 + 10L; // ë‹¤ë¥¸ íƒ€ì…ë¼ë¦¬ ë”í•˜ë©´ ìƒìœ„íƒ€ì…ì— ë§ì¶°ì•¼í•œë‹¤. ì•„ë‹ˆë©´ ì—ëŸ¬ëœ¸
 		System.out.println(b);
 	}
 }

@@ -1,13 +1,13 @@
 
 public class Method {
-	// public(Á¢±ÙÁöÁ¤ÀÚ) static void(¹İÈ¯°ª) main(¸Ş¼Òµå¸í)(String[] args)(ÆÄ¶ó¹ÌÅÍ)
-	// ¸®ÅÏÀÇ ¹İÈ¯°ª¿¡ µû¶ó void ¹İÈ¯Å¸ÀÔ º¯È¯
+	// public(ì ‘ê·¼ì§€ì •ì) static void(ë°˜í™˜ê°’) main(ë©”ì†Œë“œëª…)(String[] args)(íŒŒë¼ë¯¸í„°)
+	// ë¦¬í„´ì˜ ë°˜í™˜ê°’ì— ë”°ë¼ void ë°˜í™˜íƒ€ì… ë³€í™˜
 	public static void aaa() {
-		System.out.println("aaa()ÇÔ¼ö°¡ È£ÃâµÇ¾ú½À´Ï´Ù.");		
+		System.out.println("aaa()í•¨ìˆ˜ê°€ í˜¸ì¶œë˜ì—ˆìŠµë‹ˆë‹¤.");		
 	}
 
 	public static void main(String[] args) {
-		aaa();// ÆÄ¶ó¹ÌÅÍ°ª ÁÖÀÇ
+		aaa();// íŒŒë¼ë¯¸í„°ê°’ ì£¼ì˜
 	}
 
 }

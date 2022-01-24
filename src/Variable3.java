@@ -12,7 +12,7 @@ public class Variable3 {
 			int i;
 			i = 1;
 			System.out.println(i);
-		} // ºí·Ï °³³ä. Áö¿ªº¯¼ö Àü¿ªº¯¼ö
+		} // ë¸”ë¡ ê°œë…. ì§€ì—­ë³€ìˆ˜ ì „ì—­ë³€ìˆ˜
 
 	}
 

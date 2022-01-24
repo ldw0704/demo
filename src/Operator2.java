@@ -2,15 +2,15 @@
 public class Operator2 {
 
 	public static void main(String[] args) {
-		// »ê¼ú¿¬»êÀÚ + - * / %(³ª¸ÓÁö°ª)
+		// ì‚°ìˆ ì—°ì‚°ì + - * / %(ë‚˜ë¨¸ì§€ê°’)
 		double i = 10;
 		int j = 3;
 
-		System.out.printf("%f + %d = %2.2f", i, j, i + j); // %x.x - x´Â ÀÚ¸®¼ö, %¼ö¸¸Å­ ÀÎÀÚ¼ö ÇÊ¿ä
+		System.out.printf("%f + %d = %2.2f", i, j, i + j); // %x.x - xëŠ” ìë¦¬ìˆ˜, %ìˆ˜ë§Œí¼ ì¸ììˆ˜ í•„ìš”
 		System.out.println(i - j);
 		System.out.println(i * j);
 		System.out.println(i / j);
-		System.out.printf("%.12f", i / j); // nÀÚ¸®¼ö ÁöÁ¤, 0 ÀÚ¸®¼öÁöÁ¤½Ã ³²´Â ¿ŞÂÊ¿¡ 0Ãâ·Â, - ¿ŞÂÊ ºóÄ­ °ø¹é, m¼Ò¼öÁ¡ ¾Æ·¡ ÀÚ¸®¼ö ÁöÁ¤
+		System.out.printf("%.12f", i / j); // nìë¦¬ìˆ˜ ì§€ì •, 0 ìë¦¬ìˆ˜ì§€ì •ì‹œ ë‚¨ëŠ” ì™¼ìª½ì— 0ì¶œë ¥, - ì™¼ìª½ ë¹ˆì¹¸ ê³µë°±, mì†Œìˆ˜ì  ì•„ë˜ ìë¦¬ìˆ˜ ì§€ì •
 		System.out.println(i % j);
 	}
 

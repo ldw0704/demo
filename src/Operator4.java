@@ -2,14 +2,14 @@
 public class Operator4 {
 
 	public static void main(String[] args) {
-		// Áõ°¨ ++, --
+		// ì¦ê° ++, --
 		int i = 0;
 		// i++;, --i;
-		System.out.println(++i); // Ãâ·Â½Ã Ã³¸®¼ø¼­ Â÷ÀÌ
-		// ºÎÁ¤ !
+		System.out.println(++i); // ì¶œë ¥ì‹œ ì²˜ë¦¬ìˆœì„œ ì°¨ì´
+		// ë¶€ì • !
 		boolean b = false;
 		System.out.println(!b);
-		// ºñ±³ >, >=, <, <=, ==, != °á°ú´Â boolean
+		// ë¹„êµ >, >=, <, <=, ==, != ê²°ê³¼ëŠ” boolean
 		int m = 10, n = 5;
 		System.out.println(m > n);
 		System.out.println(m >= n);
@@ -17,7 +17,7 @@ public class Operator4 {
 		System.out.println(m <= n);
 		System.out.println(m == n);
 		System.out.println(m != n);
-		// ³í¸® and[&&], or[||], not[!], xor(¹«Á¶°Ç µÑÁßÇÏ³ª¸¸ ÂüÀÌ¾î¾ßÇÔ)
+		// ë…¼ë¦¬ and[&&], or[||], not[!], xor(ë¬´ì¡°ê±´ ë‘˜ì¤‘í•˜ë‚˜ë§Œ ì°¸ì´ì–´ì•¼í•¨)
 		System.out.println("----------------");
 		System.out.println(false && false);
 		System.out.println(false && true);
@@ -31,15 +31,15 @@ public class Operator4 {
 		System.out.println("----------------");
 		System.out.println(!false);
 		System.out.println(!true);
-		// ºñÆ®¿¬»êÀÚ &, |, ^(xor), ~(not), <<, >>, >>>, 8ÀÚ¸®
+		// ë¹„íŠ¸ì—°ì‚°ì &, |, ^(xor), ~(not), <<, >>, >>>, 8ìë¦¬
 		byte bitNum1 = 15;
 		byte bitNum2 = 20;
-		System.out.println(bitNum1 & bitNum2); // 2Áø¼ö·Î º¯°æÈÄ ºñ±³ÇÔ 2ÀÇ Á¦°ö¸¸ 1,1·Î ÀÏÄ¡. ±× ÀÚ¸®¼ö¸¦ ´Ù ´õÇÑ°ªÀ» Ãâ·Â 4
-		System.out.println(bitNum1 | bitNum2); // ¸ğµç ÀÚ¸®¼ö°¡ 1ÀÌ¹Ç·Î ÇÕÀº 31
-		System.out.println(~bitNum2); // ºÎÈ£±îÁö ¹Ù²ñ, º¸¼ö°³³ä 0 -127 <-> -1 - -128
+		System.out.println(bitNum1 & bitNum2); // 2ì§„ìˆ˜ë¡œ ë³€ê²½í›„ ë¹„êµí•¨ 2ì˜ ì œê³±ë§Œ 1,1ë¡œ ì¼ì¹˜. ê·¸ ìë¦¬ìˆ˜ë¥¼ ë‹¤ ë”í•œê°’ì„ ì¶œë ¥ 4
+		System.out.println(bitNum1 | bitNum2); // ëª¨ë“  ìë¦¬ìˆ˜ê°€ 1ì´ë¯€ë¡œ í•©ì€ 31
+		System.out.println(~bitNum2); // ë¶€í˜¸ê¹Œì§€ ë°”ë€œ, ë³´ìˆ˜ê°œë… 0 -127 <-> -1 - -128
 		System.out.println(bitNum2 << 1);
 		System.out.println(bitNum2 >> 1);
-		System.out.println(bitNum2 >>> 1); // ¹İ´ë´Â ¾øÀ½, ºÎÈ£ ¾ø´Ù°í ÆÇ´Ü.À½¼ö¾È¾¸
+		System.out.println(bitNum2 >>> 1); // ë°˜ëŒ€ëŠ” ì—†ìŒ, ë¶€í˜¸ ì—†ë‹¤ê³  íŒë‹¨.ìŒìˆ˜ì•ˆì”€
 		System.out.println(bitNum1 ^ bitNum2);
 	}
 

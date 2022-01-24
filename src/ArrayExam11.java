@@ -1,7 +1,7 @@
 /**
- * ÁÖ¾îÁø ¹è¿­ÀÇ Ç×¸ñ¿¡¼­ÃÖ´ë°ªÀ»±¸ÇØº¸¼¼¿ä. {1,5,3,8,2}
+ * ì£¼ì–´ì§„ ë°°ì—´ì˜ í•­ëª©ì—ì„œìµœëŒ€ê°’ì„êµ¬í•´ë³´ì„¸ìš”. {1,5,3,8,2}
  * 
- * °á°ú°ªÀº 8
+ * ê²°ê³¼ê°’ì€ 8
  * 
  * @author smart19
  *
@@ -10,7 +10,7 @@ public class ArrayExam11 {
 
 	public static void main(String[] args) {
 		int[] i = { -1, 5, 3, 8, 2, };
-		// int s = -99999999; = Integer.MAX_VALUE : s = ÃÖ´ë°ª /ÃÖ¼Ò°ª MIN_VALUE
+		// int s = -99999999; = Integer.MAX_VALUE : s = ìµœëŒ€ê°’ /ìµœì†Œê°’ MIN_VALUE
 		int k = 0;
 		for (int j = 0; j < i.length; j++) {
 			if (i[j] > k) {

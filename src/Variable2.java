@@ -5,17 +5,17 @@ public class Variable2 {
 		byte b = 127;// 1byte
 		short s = 1;// 2byte
 		int i = 10;// 4byte
-		long l = 10l;// int¿Í ±¸ºĞÇÏ±âÀ§ÇØ L±âÀÔ, 8byte
+		long l = 10l;// intì™€ êµ¬ë¶„í•˜ê¸°ìœ„í•´ Lê¸°ì…, 8byte
 		double d = 10.0;
-		double d2 = 0.0;// ¼Ò¼öÁ¡ ²À Âï¾î¾ßÇÔ. -> 0., .0, 8byte Á¤¼ö¸¦ ÀÔ·ÂÇØµµ »ç¿ë°¡´É(ÀÛÀºµ¥¼­ Å«µ¥´Â ¹®Á¦¾ø±â¶§¹®)
-		char c = 'A';// ¾Æ½ºÅ°ÄÚµå, ÀÚ¹Ù´Â ÇÑ±Ûµµ °¡´É
-		float f = .0f;// double°ú ±¸ºĞÇÏ±âÀ§ÇØ F±âÀÔÇÔ. 4byte
+		double d2 = 0.0;// ì†Œìˆ˜ì  ê¼­ ì°ì–´ì•¼í•¨. -> 0., .0, 8byte ì •ìˆ˜ë¥¼ ì…ë ¥í•´ë„ ì‚¬ìš©ê°€ëŠ¥(ì‘ì€ë°ì„œ í°ë°ëŠ” ë¬¸ì œì—†ê¸°ë•Œë¬¸)
+		char c = 'A';// ì•„ìŠ¤í‚¤ì½”ë“œ, ìë°”ëŠ” í•œê¸€ë„ ê°€ëŠ¥
+		float f = .0f;// doubleê³¼ êµ¬ë¶„í•˜ê¸°ìœ„í•´ Fê¸°ì…í•¨. 4byte
 		boolean sw = true;
 		boolean sw2 = false;
-		System.out.println("±Û\tÀÚ");// ÅÇ¸¸Å­ ¶ç¿ì±â
-		System.out.println("±Û\nÀÚ");// ÁÙ¹Ù²Ş
-		System.out.println("±Û\"ÀÚ");// '"'³Ö±â
-		System.out.println("±Û\\ÀÚ");// '/' ³Ö±â
+		System.out.println("ê¸€\tì");// íƒ­ë§Œí¼ ë„ìš°ê¸°
+		System.out.println("ê¸€\nì");// ì¤„ë°”ê¿ˆ
+		System.out.println("ê¸€\"ì");// '"'ë„£ê¸°
+		System.out.println("ê¸€\\ì");// '/' ë„£ê¸°
 	}
 
 }

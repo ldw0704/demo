@@ -1,5 +1,5 @@
 /**
- * ¿¬Â÷ÇÁ·Î±×·¥(³âº°)
+ * ì—°ì°¨í”„ë¡œê·¸ëž¨(ë…„ë³„)
  * 
  * @author smart19
  *
@@ -7,57 +7,57 @@
 public class ControlFlow9 {
 
 	public static void main(String[] args) {
-		int longevity = -10; // ³ª´Â longevity³âÂ÷
+		int longevity = -10; // ë‚˜ëŠ” longevityë…„ì°¨
 		if (longevity < 1) {
-			System.out.println("usage:¾ç¼ö°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä");
-			return;// void(¾øÀ½) ¾Æ·¡³»¿ëÀ» ¼öÇàÇÏÁö¾ÊÀ½. -c¾ð¾î
+			System.out.println("usage:ì–‘ìˆ˜ê°’ì„ ìž…ë ¥í•˜ì„¸ìš”");
+			return;// void(ì—†ìŒ) ì•„ëž˜ë‚´ìš©ì„ ìˆ˜í–‰í•˜ì§€ì•ŠìŒ. -cì–¸ì–´
 		}
 		switch (longevity) {
 		case 1:
-			System.out.println("¿¬Â÷°³¼ö°¡ 11°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 11ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 2:
-			System.out.println("¿¬Â÷°³¼ö°¡ 15°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 15ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 3:
 		case 4:
-			System.out.println("¿¬Â÷°³¼ö°¡ 16°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 16ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 5:
 		case 6:
-			System.out.println("¿¬Â÷°³¼ö°¡ 17°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 17ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 7:
 		case 8:
-			System.out.println("¿¬Â÷°³¼ö°¡ 18°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 18ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 9:
 		case 10:
-			System.out.println("¿¬Â÷°³¼ö°¡ 19°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 19ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 11:
 		case 12:
-			System.out.println("¿¬Â÷°³¼ö°¡ 20°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 20ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 13:
 		case 14:
-			System.out.println("¿¬Â÷°³¼ö°¡ 21°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 21ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 15:
 		case 16:
-			System.out.println("¿¬Â÷°³¼ö°¡ 22°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 22ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 17:
 		case 18:
-			System.out.println("¿¬Â÷°³¼ö°¡ 23°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 23ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		case 19:
 		case 20:
-			System.out.println("¿¬Â÷°³¼ö°¡ 24°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 24ê°œ ìž…ë‹ˆë‹¤");
 			break;
 
 		default:
-			System.out.println("¿¬Â÷°³¼ö°¡ 25°³ ÀÔ´Ï´Ù");
+			System.out.println("ì—°ì°¨ê°œìˆ˜ê°€ 25ê°œ ìž…ë‹ˆë‹¤");
 			break;
 		}
 	}

@@ -4,39 +4,39 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Server extends Thread { // extends Thread Ãß°¡
+public class Server extends Thread { // extends Thread ì¶”ê°€
 
 	final static int SERVER_PORT = 1225;
 	final static String MESSAGE_TO_CLINET = "Hi, Client";
 
 	public static void main(String[] args) {
 		ServerSocket serverSocket = null;
-		try { // Å¸ÀÌÇÎº¸´Ü ´­·¯¼­ ¶ç¿ìÀÚ
+		try { // íƒ€ì´í•‘ë³´ë‹¨ ëˆŒëŸ¬ì„œ ë„ìš°ì
 			serverSocket = new ServerSocket(SERVER_PORT);
 
 			while (true) {
-				System.out.println("socket ¿¬°á ´ë±â");
+				System.out.println("socket ì—°ê²° ëŒ€ê¸°");
 				Socket socket = serverSocket.accept();
-				System.out.println("host:" + socket.getInetAddress() + "Åë½Å ¿¬°á¼º°ø");
+				System.out.println("host:" + socket.getInetAddress() + "í†µì‹  ì—°ê²°ì„±ê³µ");
 
-				InputStream is = socket.getInputStream(); // ÀÔ·Â 
-				OutputStream os = socket.getOutputStream(); // Ãâ·Â
+				InputStream is = socket.getInputStream(); // ì…ë ¥ 
+				OutputStream os = socket.getOutputStream(); // ì¶œë ¥
 
 				byte[] data = new byte[16];
 				int n = is.read(data);
-				final String messageFromClient = new String(data, 0, n); // data ¸¸Å­¸¸ ÀĞ¾îµéÀÎ´Ù.
+				final String messageFromClient = new String(data, 0, n); // data ë§Œí¼ë§Œ ì½ì–´ë“¤ì¸ë‹¤.
 				System.out.println(messageFromClient);
 
-				os.write(MESSAGE_TO_CLINET.getBytes()); //.°Ù¹ÙÀÌÆ®, ¹ÙÀÌÆ®·Î º¯È¯
+				os.write(MESSAGE_TO_CLINET.getBytes()); //.ê²Ÿë°”ì´íŠ¸, ë°”ì´íŠ¸ë¡œ ë³€í™˜
 				os.flush();
 				
 				is.close();
-				os.close();  // ÀĞ°í Ãâ·ÂÇÏ´Â ºÎºĞ ÀÎÇ²½ºÆ®¸²ºÎÅÍ Å¬·ÎÁî±îÁö
+				os.close();  // ì½ê³  ì¶œë ¥í•˜ëŠ” ë¶€ë¶„ ì¸í’‹ìŠ¤íŠ¸ë¦¼ë¶€í„° í´ë¡œì¦ˆê¹Œì§€
 
 				socket.close();
 			}
 
-		} catch (Exception e) { // ¾ÕÀÇ IOÁö¿öÁÙ°Í
+		} catch (Exception e) { // ì•ì˜ IOì§€ì›Œì¤„ê²ƒ
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}

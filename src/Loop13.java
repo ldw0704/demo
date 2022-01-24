@@ -8,7 +8,7 @@ public class Loop13 {
 
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
-			// i°ªÀÌ 5ÀÌ¸é Á¤Áö
+			// iê°’ì´ 5ì´ë©´ ì •ì§€
 			if (i == 5) {
 				break;
 

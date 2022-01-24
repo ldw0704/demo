@@ -1,8 +1,8 @@
 
-import java.time.LocalDateTime;// ½Ã½ºÅÛ Å¬·¡½º´Â ±âº»À¸·Î ºÒ·¯¿À°í ³ª¸ÓÁö´Â µû·Î ºÒ·¯¿Â´Ù.
+import java.time.LocalDateTime;// ì‹œìŠ¤í…œ í´ëž˜ìŠ¤ëŠ” ê¸°ë³¸ìœ¼ë¡œ ë¶ˆëŸ¬ì˜¤ê³  ë‚˜ë¨¸ì§€ëŠ” ë”°ë¡œ ë¶ˆëŸ¬ì˜¨ë‹¤.
 
 /**
- * for¹® ÇöÀç½Ã°£Ãâ·Â
+ * forë¬¸ í˜„ìž¬ì‹œê°„ì¶œë ¥
  * 
  * @author smart19
  *
